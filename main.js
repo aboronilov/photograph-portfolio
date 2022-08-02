@@ -19,14 +19,24 @@ textButtons.forEach(textButton => {
 
 // swiper
 
-var swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
     slidesPerView: 1,
     spaceBetween: 20,
+
+    autoplay: {
+        delay: 3000,
+        disableOnIteraction: false,
+    },
+  
+    // If we need pagination
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
     },
-    breakpionts: {
+
+    breakpoints: {
         599: {
             slidesPerView: 2,
             spaceBetween: 40,
@@ -35,5 +45,9 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 60,
         }
-    }
+    }  
+
   });
+
+
+ 
