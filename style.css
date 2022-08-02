@@ -7,7 +7,7 @@
     --color-bg-3: #012734;
     --color-bg-4: #003347;
     --color-light: #85a2b2;
-    --color-white:  hsl(0,0%,90%);
+    --color-white: hsl(0, 0%, 90%);
 
     /* Purple theme */
     /* 
@@ -48,7 +48,8 @@ body {
     line-height: 1.7;
 }
 
-h1, h2 {
+h1,
+h2 {
     line-height: 1.1;
     font-weight: 400;
 }
@@ -121,12 +122,12 @@ nav {
 
 .nav__links {
     display: flex;
-    gap: 4rem;    
+    gap: 4rem;
 }
 
 .nav__socials {
     display: flex;
-    gap:1rem;
+    gap: 1rem;
 }
 
 .nav__socials a {
@@ -172,7 +173,7 @@ header {
 .header__image-lg {
     width: 29rem;
     position: relative;
-    top:1rem;
+    top: 1rem;
     left: 1rem;
     filter: saturate(0) brightness(0.3);
 }
@@ -252,7 +253,7 @@ header {
     left: 2rem;
 }
 
-.header__frames:hover .header__frame{
+.header__frames:hover .header__frame {
     transform: rotate(0);
 }
 
@@ -308,7 +309,7 @@ header {
 
 @keyframes spinText {
     to {
-        transform: rotate(360deg); 
+        transform: rotate(360deg);
     }
 }
 
@@ -391,4 +392,80 @@ header {
 
 .about__right p {
     margin: 0 4rem 1.5rem 0;
+}
+
+/* =============== Gallery ============== */
+
+#gallery {
+    margin-top: 12rem;
+}
+
+#gallery img{
+    width: 25rem;
+    object-fit: cover;
+}
+
+.gallery__head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery__container p {
+    width: 45rem;
+}
+
+.swiper-wrapper {
+    margin-top: 5rem;
+    height: 37rem;
+    padding-bottom: 5rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff; 
+
+    /* Center slide text vertically  */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}   
+
+.swiper-slide img {
+    filter: saturate(0);
+    transition: var(--transition);
+}
+
+.swiper-slide:hover img {
+    filter: saturate(1);
+}
+
+.swiper-slide {
+    width: 25rem;    
+    height: fit-content;
+    max-height: 36rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.swiper-slide:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.swiper-pagination-bullet {
+    background: var(--color-primary);
 }
