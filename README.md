@@ -5,11 +5,11 @@ The deployed site is [here](https://nice-photos-4u.netlify.app/)
 1. Loading page
 ![Landing page](https://github.com/aboronilov/photograph-portfolio/blob/master/images/screenshot-1.jpg)
 2. About page with animation
-![About](https://github.com/aboronilov/photograph-portfolio/blob/master/images/screenshot-2.jpg)
+![About](https://github.com/aboronilov/photograph-portfolio/blob/master/images/screenshot-2.png)
 3. Galery with slider and animation
-![Gallery](https://github.com/aboronilov/photograph-portfolio/blob/master/images/screenshot-3.jpg)
+![Gallery](https://github.com/aboronilov/photograph-portfolio/blob/master/images/screenshot-3.png)
 4. Exhibitions with animation
-![Page](https://github.com/aboronilov/photograph-portfolio/blob/master/images/screenshot-4.jpg)
+![Page](https://github.com/aboronilov/photograph-portfolio/blob/master/images/screenshot-4.png)
 
 
 ## Technologies
